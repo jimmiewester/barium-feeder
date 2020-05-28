@@ -1,0 +1,12 @@
+{
+  "Barium": {
+    "user_id": "",
+    "password" : "",
+    "api_key" : "",
+    "application_id" : "",
+    "template_id": ""
+  },
+  "AbouMap": {
+      "Abou" : "Barium",
+    }
+}

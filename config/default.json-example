@@ -4,7 +4,8 @@
     "password" : "",
     "api_key" : "",
     "application_id" : "",
-    "template_id": ""
+    "template_id": "",
+    "debug":false
   },
   "AbouMap": {
       "Abou" : "Barium",

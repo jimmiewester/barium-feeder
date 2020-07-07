@@ -13,6 +13,7 @@ const password = config.get('Barium.password');
 const api_key = config.get('Barium.api_key');
 const application_id = config.get('Barium.application_id');
 const template_id = config.get('Barium.template_id');
+const message_id = config.get('Barium.message');
 const map = config.get('AbouMap');
 const debug = config.get('Barium.debug');
 var headers = [];
@@ -33,7 +34,8 @@ bariumfeeder.login(api_key, user_id,password,
               }
               else {
                   var data = {
-                    template:template_id
+                    template:template_id,
+                    message:message_id
                   };
                   for (var i = 0; i < row.length; i++) {
                     var key = map[headers[i]];

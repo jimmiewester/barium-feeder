@@ -42,7 +42,7 @@
     		 	"Ticket": token
     		}
 		};
-		bariumclient.post("https://live.barium.se/api/v1.0/apps/" + application_id +  "?message=START", args, function (result, response) {
+		bariumclient.post("https://live.barium.se/api/v1.0/apps/" + application_id +  "?", args, function (result, response) {
 			if(result.success){
 				logger.debug("barium-feeder success:" + result.InstanceId);
 				callback(false, result.InstanceId);

@@ -12,7 +12,7 @@
     "config": "^3.2.2",
     "csv-reader": "^1.0.3",
     "esm": "^3.2.25",
-    "log4js": "^5.1.0",
+    "log4js": "^6.4.0",
     "node-rest-client": "^3.1.0",
     "run-parallel-limit": "^1.0.5"
   }

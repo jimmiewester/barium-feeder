@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "config": "^3.2.2",
+    "config": "^3.3.8",
     "csv-reader": "^1.0.3",
     "esm": "^3.2.25",
     "log4js": "^5.1.0",
